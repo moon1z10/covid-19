@@ -1,0 +1,20 @@
+
+[
+    {"state":"서울",	"infected":108	,"death":0},
+    {"state":"부산",	"infected":96   ,"death":1},
+    {"state":"대구",	"infected":5084 ,"death":31},
+    {"state":"인천",	"infected":9    ,"death":0},
+    {"state":"광주",	"infected":13   ,"death":0},
+    {"state":"대전",	"infected":18   ,"death":0},
+    {"state":"울산",	"infected":23   ,"death":0},
+    {"state":"세종",	"infected":2    ,"death":0},
+    {"state":"경기",	"infected":130  ,"death":1},
+    {"state":"강원",	"infected":26   ,"death":0},
+    {"state":"충북",	"infected":20   ,"death":0},
+    {"state":"충남",	"infected":92   ,"death":0},
+    {"state":"전북",	"infected":7    ,"death":0},
+    {"state":"전남",	"infected":4    ,"death":0},
+    {"state":"경북",	"infected":1049 ,"death":10},
+    {"state":"경남",	"infected":82   ,"death":0},
+    {"state":"제주",	"infected":4    ,"death":0}
+]

@@ -4354,6 +4354,7 @@ input[type=button].btn-block {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
+  font-size: 2.1rem;
 }
 
 .card-title {
@@ -4393,6 +4394,7 @@ input[type=button].btn-block {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
+  font-size: 1.4rem;
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
@@ -10211,4 +10213,8 @@ body {
 }
 .sb-sidenav-light .sb-sidenav-footer {
   background-color: #e9ecef;
+}
+
+#visualization svg path[fill^='none'] {
+  stroke-width: 0px;
 }

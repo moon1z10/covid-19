@@ -4,43 +4,44 @@ Chart.defaults.global.defaultFontColor = '#292b2c';
 
 // Bar Chart Example
 var ctx = document.getElementById("myBarChart");
-var myLineChart = new Chart(ctx, {
-  type: 'bar',
-  data: {
-    labels: ["대구", "경북", "서울", "경기"],
-    datasets: [{
-      label: "Revenue",
-      backgroundColor: "rgba(2,117,216,1)",
-      borderColor: "rgba(2,117,216,1)",
-      data: [4000, 2000, 100, 80],
-    }],
-  },
-  options: {
-    scales: {
-      xAxes: [{
-        time: {
-          unit: 'month'
-        },
-        gridLines: {
-          display: false
-        },
-        ticks: {
-          maxTicksLimit: 6
-        }
-      }],
-      yAxes: [{
-        ticks: {
-          min: 0,
-          //max: 15000,
-          maxTicksLimit: 5
-        },
-        gridLines: {
-          display: true
-        }
-      }],
-    },
-    legend: {
-      display: false
-    }
-  }
+var myBarChart = new Chart(ctx, {
+	type: 'bar',
+	data: {
+		labels: ["서울","부산","대구","인천","광주","대전","울산","세종","경기","강원","충북","충남","전북","전남","경북","경남","제주"],
+		datasets: [{
+			label: "Infected",
+			backgroundColor: "rgba(2,117,216,1)",
+			borderColor: "rgba(2,117,216,1)",
+			data: [],
+		}],
+	},
+	options: {
+		scales: {
+			xAxes: [{
+				time: {
+					unit: 'month'
+				},
+				gridLines: {
+					display: false
+				},
+				ticks: {
+					maxTicksLimit: 6,
+					autoSkip: false
+				}
+			}],
+			yAxes: [{
+				ticks: {
+					min: 0,
+					max: 5000,
+					maxTicksLimit: 5
+				},
+				gridLines: {
+					display: true
+				}
+			}],
+		},
+		legend: {
+			display: false
+		}
+	}
 });
